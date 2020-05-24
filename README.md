@@ -3,16 +3,16 @@ Project "Car" for [IT4Kids](https://it-for-kids.org/)
 
 ## Content
 
-- [Bedienungsanleitung (German)](#Bedienungsanleitung-(German))
-  * [Fernbedienung](#Fernbedienung)
-    + [Fähigkeiten](#Fähigkeiten)
-  * [Auto](#Auto)
-    + [Fähigkeiten](#Fähigkeiten-1)
-- [Operating Instructions](#Operating Instructions)
-  * [Remote control](#Remote control)
-    + [Skills](#Skills)
-  * [Car](#Car)
-    + [Skills](#Skills-1)
+- [Bedienungsanleitung (German)](#bedienungsanleitung-(german))
+  * [Fernbedienung](#fernbedienung)
+    + [Fähigkeiten](#fähigkeiten)
+  * [Auto](#auto)
+    + [Fähigkeiten](#fähigkeiten-1)
+- [Operating Instructions](#operating-instructions)
+  * [Remote control](#remote-control)
+    + [Skills](#skills)
+  * [Car](#car)
+    + [Skills](#skills-1)
  
  
  
