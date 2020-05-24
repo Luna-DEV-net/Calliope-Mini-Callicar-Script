@@ -3,7 +3,7 @@ Project "Car" for [IT4Kids](https://it-for-kids.org/)
 
 ## Content
 
-- [Bedienungsanleitung (German)](#bedienungsanleitung-(german))
+- [Bedienungsanleitung (German)](#bedienungsanleitung-german)
   * [Fernbedienung](#fernbedienung)
     + [Fähigkeiten](#fähigkeiten)
   * [Auto](#auto)
