@@ -4,11 +4,13 @@ Project "Car" for [IT4Kids](https://it-for-kids.org/)
 ## Content
 
 - [Bedienungsanleitung](#bedienungsanleitung-german)
+  * [Allgemeine Informationen](#allgemeine-informationen)
   * [Fernbedienung](#fernbedienung)
     + [Fähigkeiten](#fähigkeiten)
   * [Auto](#auto)
     + [Fähigkeiten](#fähigkeiten-1)
 - [Operating Instructions](#operating-instructions)
+  * [General information](#general-information)
   * [Remote control](#remote-control)
     + [Skills](#skills)
   * [Car](#car)
@@ -18,6 +20,11 @@ Project "Car" for [IT4Kids](https://it-for-kids.org/)
  
 ## Bedienungsanleitung (German)
 [[english see here.]](#operating-instructions)
+ 
+### Allgemeine Informationen
+Die `.hex`-Dateien können einfach auf den Calliopen kopiert werden.
+Diese wurden mit dem [Makecode]( https://makecode.calliope.cc/ )-Editor erstellt.
+Die `.hex`-Dateien lassen sich mit diesem auch wieder öffnen.
  
 ### Fernbedienung
  
@@ -61,6 +68,11 @@ Modus "Knopflenkung":
 - Ladebildschirm
 
 ## Operating Instructions
+
+### General information
+The `.hex` files can simply be copied to the Calliope.
+These were created with the [Makecode]( https://makecode.calliope.cc/ )-editor.
+The `.hex` files can also be opened again with the editor.
  
 ### Remote control
  
