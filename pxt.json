@@ -7,13 +7,10 @@
     },
     "files": [
         "README.md",
-        "main.blocks",
         "main.ts",
         "_Project-Callicar_FernbedienungV-4.ts"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": [],
     "targetVersions": {
         "target": "4.0.29",
         "targetId": "calliopemini"
