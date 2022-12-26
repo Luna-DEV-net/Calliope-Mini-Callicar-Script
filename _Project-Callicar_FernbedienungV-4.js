@@ -10,9 +10,25 @@ let play_mode = 0  // Default: 0
 // Wenn das Auto im Modus Knopfsteuerung ist, wie sehr soll dann zu Seite gelenkt werden? Standard: 800
 const DIRECTION_BUTTON_CONTROL = 800  // Default: 800
 
+oledssd1306.initDisplay()
+oledssd1306.setTextXY(0, 2)
+oledssd1306.writeString("Geschwindigkeit:")
+
 // Einstellungen für die Drahtlosverbindung
 radio.setGroup(0)
 radio.setTransmitPower(7)  // Max=7
+
+radio.onDataPacketReceived(({receivedString: m, receivedNumber: d}) => {
+    let dataInt = d
+    let mode = m
+    if (dataInt != dataInt) {
+        // dataInt is NaN
+        dataInt = 0
+    }
+    if (mode == "retunspeed") {
+        let speeddata = dataInt
+    }
+})
 
 // Buttons
 basic.forever(() => {
@@ -92,6 +108,8 @@ basic.forever(() => {
     radio.sendValue("direction", x_axis)
     radio.sendValue("speed", y_axis)
 })
-basic.forever(function () => {
-    
+basic.forever(function() {
+    oledssd1306.setTextXY(1, 7)
+    oledssd1306.writeNumber(speeddata)
+    basic.pause(1000)
 })
